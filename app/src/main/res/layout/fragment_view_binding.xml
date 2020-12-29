@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".viewbinding.ViewBindingFragment">
+
+    <Button
+        android:id="@+id/btnWhoAmI"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="我是谁" />
+
+    <Button
+        android:id="@+id/btnWhereIAm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="我在哪里" />
+
+    <com.shark.jetpackdemo.viewbinding.ViewBindingCustomView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
