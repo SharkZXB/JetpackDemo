@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackDemo">
-        <activity android:name=".databinding.DataBindingActivity"></activity>
+        <activity android:name=".lifecycle.LifecycleActivity"></activity>
+        <activity android:name=".databinding.DataBindingActivity" />
         <activity android:name=".viewbinding.ViewBindingActivity" />
         <activity android:name=".DataStoreActivity" />
         <activity android:name=".RoomActivity" />

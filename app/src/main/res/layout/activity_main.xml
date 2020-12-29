@@ -23,5 +23,12 @@
         android:onClick="onClickDataBinding"
         android:text="DataBindingActivity" />
 
+    <Button
+        android:id="@+id/btnLifecycleActivity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClickLifecycle"
+        android:text="LifecycleActivity" />
+
 
 </LinearLayout>
