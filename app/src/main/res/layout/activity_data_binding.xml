@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.shark.jetpackdemo.databinding.User" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{user.firstName}"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{user.lastName}"
+            android:textSize="50sp" />
+
+        <FrameLayout
+            android:id="@+id/rl_contain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</layout>
+
+
+    <!--
+
+    TODO 布局和绑定表达式
+
+    借助表达式语言，您可以编写表达式来处理视图分派的事件。数据绑定库会自动生成将布局中的视图与您的数据对象绑定所需的类。
+
+    数据绑定布局文件略有不同，以根标记 layout 开头，后跟 data 元素和 view 根元素。
+    此视图元素是非绑定布局文件中的根。以下代码展示了示例布局文件：
+
+    布局中的表达式使用“@{}”语法写入特性属性中。
+
+    -->
