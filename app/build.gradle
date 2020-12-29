@@ -53,4 +53,12 @@ dependencies {
 
     // startup 加速App启动 这个不好用
     implementation "androidx.startup:startup-runtime:1.0.0-alpha01"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.2.0"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:2.2.0"
+    // lifecycle only (without ViewModel or LiveData)
+    implementation "androidx.lifecycle:lifecycle-runtime:2.2.0"
+
 }

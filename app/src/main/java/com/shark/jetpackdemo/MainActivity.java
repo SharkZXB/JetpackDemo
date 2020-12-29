@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.shark.jetpackdemo.databinding.DataBindingActivity;
 import com.shark.jetpackdemo.lifecycle.LifecycleActivity;
+import com.shark.jetpackdemo.livedata.LiveDataActivity;
 import com.shark.jetpackdemo.viewbinding.ViewBindingActivity;
 
 /**
@@ -46,5 +47,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onClickLifecycle(View view) {
         startActivity(new Intent(this, LifecycleActivity.class));
+    }
+
+    /**
+     * LiveData
+     *
+     * @param view
+     */
+    public void onClickLiveData(View view) {
+        startActivity(new Intent(this, LiveDataActivity.class));
     }
 }

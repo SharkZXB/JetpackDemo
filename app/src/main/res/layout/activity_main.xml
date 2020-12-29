@@ -30,5 +30,12 @@
         android:onClick="onClickLifecycle"
         android:text="LifecycleActivity" />
 
+ <Button
+        android:id="@+id/btnLiveDataActivity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClickLiveData"
+        android:text="LiveDataActivity" />
+
 
 </LinearLayout>
